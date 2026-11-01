@@ -5,6 +5,7 @@ Jupyter notebooks that accompany the lessons of the Introduction to Data Science
 | Notebook | Lesson | Open |
 |---|---|---|
 | `sql-python-sqlite-bikeshare.ipynb` | [The minimum Python for working with SQLite](https://dvirross.com/courses/intro-data-science/python-sqlite-minimum) | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare.ipynb) |
+| `sql-python-sqlite-bikeshare-solutions.ipynb` | the same notebook with solutions | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare-solutions.ipynb) |
 
 ## Data
 
@@ -23,3 +24,4 @@ The notebooks are by Dvir Ross, all rights reserved unless a license file says o
 | מחברת | שיעור | פתיחה |
 |---|---|---|
 | `sql-python-sqlite-bikeshare.ipynb` | [Python מינימלי לעבודה עם SQLite](https://dvirross.com/he/courses/intro-data-science/python-sqlite-minimum) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare.ipynb) |
+| `sql-python-sqlite-bikeshare-solutions.ipynb` | אותה מחברת עם פתרונות | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare-solutions.ipynb) |
