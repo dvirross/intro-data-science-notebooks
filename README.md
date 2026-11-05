@@ -13,6 +13,19 @@ Lesson: [The minimum Python for working with SQLite](https://dvirross.com/course
 
 Files: `sql-python-sqlite-bikeshare.ipynb`, `sql-python-sqlite-bikeshare-solutions.ipynb` and the same two with `.he` before `.ipynb` for Hebrew.
 
+## Tables as Python objects: a first look at Pony ORM
+
+Lesson: [Tables as Python Objects: A First Look at Pony ORM](https://dvirross.com/courses/intro-data-science/python-orm-pony). The first cell installs Pony (`pip install pony`) if needed, and a setup cell downloads one small CSV file from dvirross.com. The notebooks are generated from the lesson page, so the tasks have the same numbers and wording on the page and in the notebook.
+
+| Language | Tasks | Solutions |
+|---|---|---|
+| English | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.ipynb) | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.ipynb) |
+| Hebrew | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.he.ipynb) | [Open in Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.he.ipynb) |
+
+Files: `orm-pony-bikeshare-worldbank.ipynb`, `orm-pony-bikeshare-worldbank-solutions.ipynb` and the same two with `.he` before `.ipynb` for Hebrew.
+
+Data: the bike-share days above and an extract of the World Bank World Development Indicators (CC BY 4.0).
+
 ## Data
 
 The notebooks download the course database from the public site: `https://dvirross.com/materials/courses/intro-data-science/sql-practice.sqlite`. The table `daily_ridership` holds 731 real days (2011 and 2012) of the Capital Bikeshare system, from the UCI Bike Sharing dataset (Fanaee-T and Gama, 2013), licensed CC BY 4.0.
@@ -35,3 +48,12 @@ The notebooks are by Dvir Ross, all rights reserved unless a license file says o
 |---|---|---|
 | עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare-solutions.he.ipynb) |
 | אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/sql-python-sqlite-bikeshare-solutions.ipynb) |
+
+## טבלאות כאובייקטים ב-Python: היכרות עם Pony ORM
+
+שיעור: [טבלאות כאובייקטים ב-Python: היכרות ראשונה עם Pony ORM](https://dvirross.com/he/courses/intro-data-science/python-orm-pony). התא הראשון מתקין את Pony אם צריך, ותא ההכנה מוריד קובץ CSV קטן מהאתר. המחברות נגזרות מדף השיעור, ולכן למשימות אותו מספר וניסוח בדף ובמחברת.
+
+| שפה | משימות | פתרונות |
+|---|---|---|
+| עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.he.ipynb) |
+| אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.ipynb) |
