@@ -15,7 +15,7 @@ Files: `sql-python-sqlite-bikeshare.ipynb`, `sql-python-sqlite-bikeshare-solutio
 
 ## Tables as Python objects: a first look at Pony ORM
 
-Lessons: [Tables as Python Objects: A First Look at Pony ORM](https://dvirross.com/courses/intro-data-science/python-orm-pony) (part 1, tasks 1 to 7) and [Pony ORM Relations: A Table That Points to Another Table](https://dvirross.com/courses/intro-data-science/python-orm-pony-relations) (part 2, tasks 8 to 11). One notebook covers both lessons, and a heading marks where each part starts. The first cell installs Pony (`pip install pony`) if needed, and a setup cell downloads one small CSV file from dvirross.com. The notebooks are generated from the lesson pages, so the tasks have the same numbers and wording on the pages and in the notebook.
+Lessons: [Tables as Python Objects: A First Look at Pony ORM](https://dvirross.com/courses/intro-data-science/python-orm-pony) (part 1, tasks 1 to 7) and [Pony ORM Relations: A Table That Points to Another Table](https://dvirross.com/courses/intro-data-science/python-orm-pony-relations) (part 2, tasks 8 to 12). One notebook covers both lessons, and a heading marks where each part starts. The first cell installs Pony (`pip install pony`) if needed, and a setup cell downloads one small CSV file from dvirross.com. The notebooks are generated from the lesson pages, so the tasks have the same numbers and wording on the pages and in the notebook.
 
 | Language | Tasks | Solutions |
 |---|---|---|
@@ -51,7 +51,7 @@ The notebooks are by Dvir Ross, all rights reserved unless a license file says o
 
 ## טבלאות כאובייקטים ב-Python: היכרות עם Pony ORM
 
-שיעורים: [טבלאות כאובייקטים ב-Python: היכרות ראשונה עם Pony ORM](https://dvirross.com/he/courses/intro-data-science/python-orm-pony) (חלק 1, משימות 1 עד 7) ו[Pony ORM: טבלה שמצביעה על טבלה אחרת](https://dvirross.com/he/courses/intro-data-science/python-orm-pony-relations) (חלק 2, משימות 8 עד 11). מחברת אחת מכסה את שני השיעורים, וכותרת מסמנת איפה כל חלק מתחיל. התא הראשון מתקין את Pony אם צריך, ותא ההכנה מוריד קובץ CSV קטן מהאתר. המחברות נגזרות מדפי השיעורים, ולכן למשימות אותו מספר וניסוח בדפים ובמחברת.
+שיעורים: [טבלאות כאובייקטים ב-Python: היכרות ראשונה עם Pony ORM](https://dvirross.com/he/courses/intro-data-science/python-orm-pony) (חלק 1, משימות 1 עד 7) ו[Pony ORM: טבלה שמצביעה על טבלה אחרת](https://dvirross.com/he/courses/intro-data-science/python-orm-pony-relations) (חלק 2, משימות 8 עד 12). מחברת אחת מכסה את שני השיעורים, וכותרת מסמנת איפה כל חלק מתחיל. התא הראשון מתקין את Pony אם צריך, ותא ההכנה מוריד קובץ CSV קטן מהאתר. המחברות נגזרות מדפי השיעורים, ולכן למשימות אותו מספר וניסוח בדפים ובמחברת.
 
 | שפה | משימות | פתרונות |
 |---|---|---|
