@@ -26,6 +26,19 @@ Files: `orm-pony-bikeshare-worldbank.ipynb`, `orm-pony-bikeshare-worldbank-solut
 
 Data: the bike-share days above and an extract of the World Bank World Development Indicators (CC BY 4.0).
 
+## Reading web pages with requests and Beautiful Soup (arXiv hardware papers)
+
+The practice notebooks of three lessons that form one set: [From a Web Page to Data: Beautiful Soup](https://dvirross.com/courses/intro-data-science/data-collection-beautifulsoup) (part 1, tasks 1 to 3), [From One Element to All Entries](https://dvirross.com/courses/intro-data-science/data-collection-find-all) (part 2, tasks 4 to 6) and [From a List to Many Pages](https://dvirross.com/courses/intro-data-science/data-collection-linked-pages) (part 3, tasks 7 to 9). The code reads saved copies of arXiv pages that are kept on dvirross.com, so the checks give the same result for everyone; the cells marked "Live site" read arXiv itself, with a user agent of their own, and their numbers change from day to day.
+
+| Notebook | Open in Colab |
+|---|---|
+| English, tasks | [data-collection-bs4.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.ipynb) |
+| English, solutions | [data-collection-bs4-solutions.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.ipynb) |
+| Hebrew, tasks | [data-collection-bs4.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.he.ipynb) |
+| Hebrew, solutions | [data-collection-bs4-solutions.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.he.ipynb) |
+
+Data: the list of the Hardware Architecture section (cs.AR) of arXiv for October 2026 and eight paper pages, retrieved on 2026-11-13 and saved unchanged; the papers belong to their authors. The code is generated from the lesson pages, so the pages and the notebooks stay the same.
+
 ## Data
 
 The notebooks download the course database from the public site: `https://dvirross.com/materials/courses/intro-data-science/sql-practice.sqlite`. The table `daily_ridership` holds 731 real days (2011 and 2012) of the Capital Bikeshare system, from the UCI Bike Sharing dataset (Fanaee-T and Gama, 2013), licensed CC BY 4.0.
@@ -57,3 +70,12 @@ The notebooks are by Dvir Ross, all rights reserved unless a license file says o
 |---|---|---|
 | עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.he.ipynb) |
 | אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/orm-pony-bikeshare-worldbank-solutions.ipynb) |
+
+## קריאת דפי אינטרנט עם requests ו-Beautiful Soup (מאמרי חומרה מ-arXiv)
+
+שיעורים: [מדף אינטרנט לנתונים: Beautiful Soup](https://dvirross.com/he/courses/intro-data-science/data-collection-beautifulsoup) (חלק 1, משימות 1 עד 3), [מאלמנט אחד לכל הערכים](https://dvirross.com/he/courses/intro-data-science/data-collection-find-all) (חלק 2, משימות 4 עד 6) ו[מרשימה לדפים רבים](https://dvirross.com/he/courses/intro-data-science/data-collection-linked-pages) (חלק 3, משימות 7 עד 9). הקוד קורא עותקים שמורים של דפי arXiv ששמורים באתר, ולכן הבדיקות נותנות לכולם אותה תוצאה. התאים שמסומנים "האתר החי" קוראים את arXiv עצמו, והמספרים בהם משתנים מיום ליום.
+
+| שפה | משימות | פתרונות |
+|---|---|---|
+| עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.he.ipynb) |
+| אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.ipynb) |
