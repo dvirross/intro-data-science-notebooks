@@ -39,6 +39,28 @@ The practice notebooks of three lessons that form one set: [From a Web Page to D
 
 Data: the list of the Hardware Architecture section (cs.AR) of arXiv for October 2026 and eight paper pages, retrieved on 2026-11-13 and saved unchanged; the papers belong to their authors. The code is generated from the lesson pages, so the pages and the notebooks stay the same.
 
+## Patterns in text: regular expressions
+
+Lesson: [Patterns in Text: Regular Expressions](https://dvirross.com/courses/intro-data-science/data-collection-regex). The code reads saved copies of arXiv pages kept on dvirross.com, so the checks give the same result for everyone.
+
+| Notebook | Open in Colab |
+|---|---|
+| English, tasks | [data-collection-regex.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex.ipynb) |
+| English, solutions | [data-collection-regex-solutions.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex-solutions.ipynb) |
+| Hebrew, tasks | [data-collection-regex.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex.he.ipynb) |
+| Hebrew, solutions | [data-collection-regex-solutions.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex-solutions.he.ipynb) |
+
+## Calling an API: the Wikipedia API
+
+Lesson: [Calling an API](https://dvirross.com/courses/intro-data-science/data-collection-api). The code reads saved copies of real answers of the English Wikipedia API (text under CC BY-SA 4.0, written by Wikipedia editors, retrieved 2026-11-16, unchanged); one cell that calls the live service is switched off by default (`RUN_LIVE = False`).
+
+| Notebook | Open in Colab |
+|---|---|
+| English, tasks | [data-collection-api.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api.ipynb) |
+| English, solutions | [data-collection-api-solutions.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api-solutions.ipynb) |
+| Hebrew, tasks | [data-collection-api.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api.he.ipynb) |
+| Hebrew, solutions | [data-collection-api-solutions.he.ipynb](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api-solutions.he.ipynb) |
+
 ## Data
 
 The notebooks download the course database from the public site: `https://dvirross.com/materials/courses/intro-data-science/sql-practice.sqlite`. The table `daily_ridership` holds 731 real days (2011 and 2012) of the Capital Bikeshare system, from the UCI Bike Sharing dataset (Fanaee-T and Gama, 2013), licensed CC BY 4.0.
@@ -79,3 +101,21 @@ The notebooks are by Dvir Ross, all rights reserved unless a license file says o
 |---|---|---|
 | עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.he.ipynb) |
 | אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-bs4-solutions.ipynb) |
+
+## תבניות בטקסט: ביטויים רגולריים
+
+שיעור: [תבניות בטקסט: ביטויים רגולריים](https://dvirross.com/he/courses/intro-data-science/data-collection-regex). הקוד קורא עותקים שמורים של דפי arXiv ששמורים באתר, ולכן הבדיקות נותנות לכולם אותה תוצאה.
+
+| שפה | משימות | פתרונות |
+|---|---|---|
+| עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex-solutions.he.ipynb) |
+| אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-regex-solutions.ipynb) |
+
+## קריאה ל-API: ה-API של ויקיפדיה
+
+שיעור: [קריאה ל־API](https://dvirross.com/he/courses/intro-data-science/data-collection-api). הקוד קורא עותקים שמורים של תשובות אמיתיות של ה-API של ויקיפדיה באנגלית (הטקסט תחת CC BY-SA 4.0, נכתב על ידי עורכי ויקיפדיה, נשלף ב-2026-11-16, ללא שינוי). תא אחד שקורא לשירות החי כבוי כברירת מחדל (`RUN_LIVE = False`).
+
+| שפה | משימות | פתרונות |
+|---|---|---|
+| עברית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api.he.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api-solutions.he.ipynb) |
+| אנגלית | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api.ipynb) | [פתיחה ב-Colab](https://colab.research.google.com/github/dvirross/intro-data-science-notebooks/blob/main/data-collection-api-solutions.ipynb) |
